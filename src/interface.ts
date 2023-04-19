@@ -3,6 +3,7 @@ export interface BaseInfo {
   slug: string;
   num_name: number;
   name: { en: string };
+  summary:{en:string,"zh-CN"?:string}|null
 }
 
 export interface CollectionInfo extends BaseInfo {

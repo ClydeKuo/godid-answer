@@ -12,6 +12,7 @@ const getSubDetail = async (subId: string) => {
 const getCats = async () => {
   const res = await fetch("https://api.godid.io/api/collections/v2?compact=true")
   const results: CollectionInfo[] = await res.json()
+
   const digitInfo = results.find((ele) => ele.slug == "digits");
   if (!digitInfo) {
     throw new Error("digitInfo not found");
@@ -33,7 +34,6 @@ const start = async () => {
       } else {
         if(!ele.names){
           console.log(digitElement.slug);
-          
         }
         config[ele.slug] = {
           classes: [digitElement.slug],
@@ -42,6 +42,7 @@ const start = async () => {
           names: ele.names,
           num_name: ele.num_name,
           name: ele.name,
+          summary:ele.summary
         };
       }
     });
