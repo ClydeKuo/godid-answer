@@ -6,7 +6,9 @@
   "author": "CK <gcj1663@163.com>",
   "license": "MIT",
   "scripts": {
-    "test": "ts-node test/index.test.ts"
+    "test": "ts-node test/index.test.ts",
+    "full": "ts-node test/full.test.ts",
+    "single": "ts-node test/single.test.ts"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.6.3",
