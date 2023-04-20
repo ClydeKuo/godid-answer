@@ -1,0 +1,30 @@
+[
+  {
+    "nameZh": "",
+    "nameEn": "ABC",
+    "summaryZh": "3 位顺子号",
+    "summaryEn": "3 digits in sequence",
+    "slug": "abc"
+  },
+  {
+    "nameZh": "",
+    "nameEn": "ABCD",
+    "summaryZh": "4 位顺子号",
+    "summaryEn": "4 digits in sequence",
+    "slug": "abcd"
+  },
+  {
+    "nameZh": "",
+    "nameEn": "ABCDE",
+    "summaryZh": "5 位顺子号",
+    "summaryEn": "5 digits in sequence",
+    "slug": "abcde"
+  },
+  {
+    "nameZh": "",
+    "nameEn": "XABCD",
+    "summaryZh": "以 4 位顺子号结尾的 5 位数字",
+    "summaryEn": "5 digits endings with 4-digits in sequence",
+    "slug": "xabcd"
+  }
+]
